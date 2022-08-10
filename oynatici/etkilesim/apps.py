@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class HesapConfig(AppConfig):
+class EtkilesimConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'hesap'
+    name = 'etkilesim'
