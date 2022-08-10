@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def ana(request):
+    return render(request, 'deneme/ana.html',{"dakka":41})
